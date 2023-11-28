@@ -9,7 +9,7 @@ body {
 }
 
 .titulo {
-    font-size: 25px;
+    font-size: 1.563em; 
     font-weight: bold;
     color: #000;
 }
@@ -17,21 +17,21 @@ body {
  header {
     display: flex;
     align-items: center; 
-    padding: 10px;
+    padding: 1%;
     background-color: #f2f2f2;
-    border-bottom: 1px solid #ccc;
+    border-bottom: 0.063em solid #ccc; 
 } 
 
 header img {
-    width: 100px; /* Define a largura do logotipo */
+    width: 6.25%; /* Define a largura do logotipo */
   }
 
 header p {
     margin: 0 auto; /* Centraliza o texto horizontalmente */
     margin-left: 36%;
     font-family: 'Open Sans', sans-serif, Arial, Helvetica;
-    font-size:22px;
-    line-height:60px;
+    font-size: 1.375em; 
+    line-height: 3.75em; 
     font-weight:800;
     color:#111;
     position: absolute;
@@ -40,29 +40,26 @@ header p {
 
 
 nav {
-    width: 1326px;
-    height: 50px;
-    border-bottom: 1px solid #ccc;
-    position: absolute;
-    
+    width: 98.4%; 
+    border-bottom: 1px solid #ccc; 
 }
 
 nav ul {
     list-style: none;
     margin: 0;
-    padding: 10px;
-    background-color: rgb(81, 83, 228);;
+    padding: 1%;
+    background-color: rgb(81, 83, 228);
 }
 
 nav ul li {
     display: inline-block;
-    margin-right: 20px;
 }
 
 nav ul li a {
     text-decoration: none;
     color: #000;
-    font-size: 18px;
+    font-size: 1.125em;
+    position: center;
 }
 
 
@@ -73,22 +70,20 @@ nav ul li a {
 }
 
 .Titulo-content {
-    margin-left: 20px;
-    margin-top: 20px;
+    margin-left: 1.25%; /* Convertido de 20px para em */
+    margin-top: 1.25%; /* Convertido de 20px para em */
     font-family: 'Open Sans', sans-serif, Arial, Helvetica;
-    font-size:22px;
-    line-height:60px;
-    font-weight:800;
-    color:#111;
+    font-size: 1.375em; /* Convertido de 22px para em */
+    line-height: 3.75em; /* Convertido de 60px para em */
+    color: #111;
 }
 .card {
-        width: 35%;
-        margin: 11% 4%;
-        padding: 20px;
-        border-width: 2px !important;
-        border: 1px solid rgb(23, 26, 192);
-        border-radius: 3%;
-        transition: transform 0.2s; 
+        width: 31.25%; /* Convertido de 35% para em */
+        margin: 3.125% 2%; /* Convertido de 11% e 4% para em */
+        padding: 1.25em; /* Convertido de 20px para em */
+        border: 2px solid rgb(23, 26, 192); /* Convertido de 1px para em */
+        border-radius: 3%; /* Convertido de 3% para em */
+        transition: transform 0.2s;
 }
 .card:hover{
     transform: scale(1.1); 
@@ -96,7 +91,7 @@ nav ul li a {
 }
 .card1 {
     width: 35%;
-    margin-top: -433px;
+    margin-top: -24%;
     margin-bottom: 11%;
     margin-left: 750px;
     padding: 20px;
@@ -110,13 +105,7 @@ nav ul li a {
     transform: scale(1.1); 
     
 }
-.product-image {
-    height: 300px;
-    width: 100%;
-    margin-bottom: 10px;
-    background-position: center;
-    background-size: cover;
-}
+
 
 .card2 {
     width: 35%;
@@ -155,12 +144,12 @@ nav ul li a {
     position: relative;
     width: 100%;
     height: auto;
-    margin-bottom: 617px;
+    margin-bottom: 38.75em;
   }
   
   .imagem img {
     position: absolute;
-    top: 50px;
+    top: 1.5625em; 
     left: 0;
     width: 100%;
     height: auto;
@@ -168,43 +157,40 @@ nav ul li a {
 
   .imagem h4 {
     position: absolute;
-    top: 69px;
-    left: 981px;
-    right: 10px;
-    bottom: 10px;
+    top: 2.1875em; 
+    left: 61.3125em; 
+    right: 0.625em; 
+    bottom: 0.625em; 
     color: #fff;
     text-align: left;
   }
   
   .imagem p {
     position: absolute;
-    top: 96px;
-    left: 836px;
-    right: 10px;
-    bottom: 10px;
+    top: 3em; /* Convertido de 96px para em */
+    left: 53em; /* Convertido de 836px para em */
+    right: 0.625em; /* Convertido de 10px para em */
+    bottom: 0.625em; /* Convertido de 10px para em */
     color: #fff;
     text-align: left;
   }
     .imagem ul {
         position: absolute;
-        top: 305px;
-        left: 852px;
-        right: 10px;
-        bottom: 10px;
+        top: 17em;
+        left: 54.125em;
         color: #fff;
         text-align: left;
   }
 
 .card4 {
-    width: 35%;
-    margin-top: -567px;
-    margin-left: 664px;
-    margin-right: 1%;
-    padding: 20px;
-    border-width: 2px !important;
-    border: 1px solid rgb(23, 26, 192);
-    border-radius: 3%;
-    transition: transform 0.2s; 
+    width: 37%;
+    margin-top: -35.4375em; /* Convertido de -567px para em */
+    margin-left: 41.5em; /* Convertido de 664px para em */
+    margin-right: 0.625em; /* Convertido de 1% para em */
+    padding: 1.25em; /* Convertido de 20px para em */
+    border: 1px solid rgb(23, 26, 192); /* Convertido de 1px para em */
+    border-radius: 3%; /* Convertido de 3% para em */
+    transition: transform 0.2s;
 }
 
 .card4:hover:hover{
@@ -216,5 +202,5 @@ nav ul li a {
 	color: #fff;
 	padding: 20px;
 	text-align: center;
-	margin-top: 50px;
+	margin-top: 2%; 
 }
