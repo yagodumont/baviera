@@ -1,0 +1,220 @@
+* {
+    margin: 0;
+    padding: 1px;
+}
+
+body {
+   background-color: #ffffff;
+   padding: 10px;
+}
+
+.titulo {
+    font-size: 25px;
+    font-weight: bold;
+    color: #000;
+}
+
+ header {
+    display: flex;
+    align-items: center; 
+    padding: 10px;
+    background-color: #f2f2f2;
+    border-bottom: 1px solid #ccc;
+} 
+
+header img {
+    width: 100px; /* Define a largura do logotipo */
+  }
+
+header p {
+    margin: 0 auto; /* Centraliza o texto horizontalmente */
+    margin-left: 36%;
+    font-family: 'Open Sans', sans-serif, Arial, Helvetica;
+    font-size:22px;
+    line-height:60px;
+    font-weight:800;
+    color:#111;
+    position: absolute;
+    top: 20px;
+}
+
+
+nav {
+    width: 1326px;
+    height: 50px;
+    border-bottom: 1px solid #ccc;
+    position: absolute;
+    
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 10px;
+    background-color: rgb(81, 83, 228);;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000;
+    font-size: 18px;
+}
+
+
+.banner img {
+    max-width: 100%; /* Garante que a imagem do banner se ajuste ao tamanho da seção */
+    height: auto; /* Mantém a proporção da imagem */
+    
+}
+
+.Titulo-content {
+    margin-left: 20px;
+    margin-top: 20px;
+    font-family: 'Open Sans', sans-serif, Arial, Helvetica;
+    font-size:22px;
+    line-height:60px;
+    font-weight:800;
+    color:#111;
+}
+.card {
+        width: 35%;
+        margin: 11% 4%;
+        padding: 20px;
+        border-width: 2px !important;
+        border: 1px solid rgb(23, 26, 192);
+        border-radius: 3%;
+        transition: transform 0.2s; 
+}
+.card:hover{
+    transform: scale(1.1); 
+    
+}
+.card1 {
+    width: 35%;
+    margin-top: -433px;
+    margin-bottom: 11%;
+    margin-left: 750px;
+    padding: 20px;
+    border-width: 2px !important;
+    border: 1px solid rgb(23, 26, 192);
+    border-radius: 3%;
+    transition: transform 0.2s; 
+}
+
+.card1:hover{
+    transform: scale(1.1); 
+    
+}
+.product-image {
+    height: 300px;
+    width: 100%;
+    margin-bottom: 10px;
+    background-position: center;
+    background-size: cover;
+}
+
+.card2 {
+    width: 35%;
+    margin-top: -178px;
+    margin-left: 48px;
+    padding: 20px;
+    border-width: 2px !important;
+    border: 1px solid rgb(23, 26, 192);
+    border-radius: 3%;
+    transition: transform 0.2s; 
+}
+
+.card2:hover{
+    transform: scale(1.1); 
+}
+
+
+.card3 {
+    width: 35%;
+    margin-top: -274px;
+    margin-left: 751px;
+    margin-right: 1%;
+    padding: 20px;
+    border-width: 2px !important;
+    border: 1px solid rgb(23, 26, 192);
+    border-radius: 3%;
+    transition: transform 0.2s; 
+}
+
+.card3:hover{
+    transform: scale(1.1); 
+}
+
+
+.imagem {
+    position: relative;
+    width: 100%;
+    height: auto;
+    margin-bottom: 617px;
+  }
+  
+  .imagem img {
+    position: absolute;
+    top: 50px;
+    left: 0;
+    width: 100%;
+    height: auto;
+  }
+
+  .imagem h4 {
+    position: absolute;
+    top: 69px;
+    left: 981px;
+    right: 10px;
+    bottom: 10px;
+    color: #fff;
+    text-align: left;
+  }
+  
+  .imagem p {
+    position: absolute;
+    top: 96px;
+    left: 836px;
+    right: 10px;
+    bottom: 10px;
+    color: #fff;
+    text-align: left;
+  }
+    .imagem ul {
+        position: absolute;
+        top: 305px;
+        left: 852px;
+        right: 10px;
+        bottom: 10px;
+        color: #fff;
+        text-align: left;
+  }
+
+.card4 {
+    width: 35%;
+    margin-top: -567px;
+    margin-left: 664px;
+    margin-right: 1%;
+    padding: 20px;
+    border-width: 2px !important;
+    border: 1px solid rgb(23, 26, 192);
+    border-radius: 3%;
+    transition: transform 0.2s; 
+}
+
+.card4:hover:hover{
+    transform: scale(1.1); 
+}
+  footer {
+    width: alto;
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+	margin-top: 50px;
+}
